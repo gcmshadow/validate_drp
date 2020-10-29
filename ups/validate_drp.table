@@ -1,6 +1,3 @@
-setupOptional(obs_cfht)
-setupOptional(obs_decam)
-setupOptional(obs_subaru)
 # note that one of validateion_data_[cfht|decam|hsc] are useful for running the scripts in /examples
 
 envPrepend(PYTHONPATH, ${PRODUCT_DIR}/python)
